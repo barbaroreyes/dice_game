@@ -7,8 +7,9 @@ body {
 }
 
 .container {
+    width: 80%;
     background-color: #fff;
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
@@ -22,6 +23,10 @@ body {
     border-radius: 5px;
     background-color: #4CAF50;
     color: white;
+}
+#rollButton:hover{
+    background-color: #a7c9a8;
+    color: rgb(9, 21, 2);
 }
 
 #diceResult, #gameResult {
